@@ -1,0 +1,56 @@
+$primary: #0B7D77;
+$secondary: #0B8652;
+$success: #CEE5E4;
+$info: #0073EA;
+$warning: #D83A52;
+$dark: #323338;
+$gray: #C5C7D0;
+
+$font-size-base: 1rem; //16px
+$h1-font-size: $font-size-base * 2; //32px
+$h2-font-size: $font-size-base * 1.5; //24px
+$h3-font-size: $font-size-base * 1.125; //18px
+$h4-font-size: $font-size-base; //16px
+$h5-font-size: $font-size-base * 0.875; //14px
+$h6-font-size: $font-size-base * 0.75; //12px
+$headings-font-weight: 700; //bold
+
+$spacer: 0.5rem; //8px
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2, //16px
+  6: $spacer * 2.5,
+  7: $spacer * 3, //24px
+  8: $spacer * 3.5,
+  9: $spacer * 3.75, //30px
+  10: $spacer * 4, //32px
+  11: $spacer * 4.5, //36px
+  12: $spacer * 5,
+  20: $spacer * 10,
+  25: $spacer * 12.5, //100px
+);
+
+$paragraph-margin-bottom: 0;
+
+$link-color: $primary;
+$link-hover-color: #096561;
+$link-focus-color: #CEE5E4;
+
+$btn-padding-y: 0.5rem; //8px
+$btn-padding-x: 1rem; //12px
+$btn-padding-y-lg: 0.75rem; //12px
+$btn-padding-x-lg: 1.5rem; //24px
+$btn-padding-y-sm: 0.3125rem; //5px
+$btn-padding-x-sm: 0.5rem; //8px
+
+p {
+    font-size: $font-size-base * 0.875;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;700&display=swap');
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
