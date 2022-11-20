@@ -1,7 +1,35 @@
-# Vue 3 + Vite
+# FastSign
+>Code: int / Design: [Coral](https://2022.thef2e.com/users/12061549261449593305)
+## Introduction
+FastSign is a simple tool to sign your PDF files. It is written in Canvas and JavaScript. It is a web application, so you can use it on any device with a browser.
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Use tools
+- [Vite](https://vitejs.dev/)
+- [Vue](https://vuejs.org/)
+- [Canvas](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+- [Bootstrap](https://getbootstrap.com/)
 
-## Recommended IDE Setup
+## Plugins
+- [jsPDF](https://github.com/parallax/jsPDF)
+- [fabric.js](http://fabricjs.com/)
+- [PDF.js](https://mozilla.github.io/pdf.js/)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+## Files & Directories
+* src
+  * assets
+    * fonts
+    * images
+  * components
+    * canvas
+    * pdf
+    * sign
+  * router
+  * store
+  * utils
+  * views
+  * App.vue
+  * main.js
+* index.html
+* package.json
+* package-lock.json
+* vite.config.js
