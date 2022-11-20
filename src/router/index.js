@@ -5,11 +5,11 @@ import Sign from '../pages/Sign.vue'
 let history = createWebHistory();
 let routes = [
     {
-        path: '/',
+        path: '/fastsign/',
         component: Home
     },
     {
-        path: '/Sign',
+        path: '/fastsign/Sign',
         component: Sign
     }
 ]
