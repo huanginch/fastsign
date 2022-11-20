@@ -119,8 +119,12 @@ import Progressbar from '../components/Progressbar.vue'
 </style>
 
 <script>
-import * as pdfjsLib from 'pdfjs-dist';
-pdfjsLib.GlobalWorkerOptions.workerSrc = './node_modules/pdfjs-dist/build/pdf.worker.js';
+// import * as pdfjsLib from 'pdfjs-dist';
+import * as PDFJSViewer from 'pdfjs-dist/web/pdf_viewer';
+import * as pdfjsLib from 'pdfjs-dist/build/pdf';
+import * as pdfjsWorker from 'pdfjs-dist/build/pdf.worker.entry'
+import 'pdfjs-dist/web/pdf_viewer.css';
+pdfjsLib.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 import { fabric } from "fabric";
 import { jsPDF } from "jspdf";
 
