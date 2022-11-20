@@ -50,7 +50,7 @@
                     const typedarray = new Uint8Array(fileReader.result);
                     // console.log(typedarray)
                     localStorage.setItem("pdfFile", typedarray);
-                    this.$router.push('/Sign');
+                    this.$router.push('/fastsign/Sign');
                 });
             },
         },
